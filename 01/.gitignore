@@ -1,0 +1,25 @@
+# C object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# C libraries
+*.lib
+*.a
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# CLion IDE files
+.idea/
+*.iml
+
+# Build files
+cmake-build-*/
