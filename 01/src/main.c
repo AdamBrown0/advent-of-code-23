@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <regex.h>
 #include <malloc.h>
-#include <string.h>
 #include <ctype.h>
 #include <stdlib.h>
+#include <string.h>
 
 int check_char_for_num(char *str, int index) {
     char *numbers[9] = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
