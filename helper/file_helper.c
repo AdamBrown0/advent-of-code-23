@@ -36,6 +36,10 @@ char** read_lines(char* filename, int* num_lines) {
         lines[*num_lines] = strdup(line);
         (*num_lines)++;
         lines = realloc(lines, sizeof(char*) * (*num_lines + 1));
+        if (lines == NULL) {
+            perror("fucked");
+            exit(0);
+        }
     }
 
     fclose(fp);
